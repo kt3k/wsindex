@@ -1,4 +1,4 @@
-# wsindex v1.0.2
+# wsindex v1.1.0
 
 > A static site generator for a simple link list.
 
