@@ -1,7 +1,7 @@
 {
   "name": "wsindex",
   "version": "1.0.1",
-  "description": "Web Site Index tool, a static site generator for list of web sites.",
+  "description": "A static site generator for a simple link list.",
   "main": "index.js",
   "bin": "./index.js",
   "scripts": {
