@@ -2,6 +2,7 @@
 
 const berber = require('berber')
 const { join } = require('path')
+const { readFileSync } = require('fs')
 const pkg = require('./package')
 const through1 = require('through1')
 const layout1 = require('layout1')
@@ -11,6 +12,7 @@ const isBuild = argv._ && argv._[0] && argv._[0] === 'build'
 
 const NAME = pkg.name
 const configName = 'package.json'
+const css = readFileSync(join(__dirname, 'tacit.min.css'))
 
 berber.name(NAME)
 berber.configName('package')
@@ -25,7 +27,13 @@ berber.loggerTitle('wsindex')
 berber.on('config', config => {
   const wsindex = config.wsindex || {}
   const pages = wsindex.pages || []
-  const data = { pages, isBuild }
+  const data = {
+    pkg,
+    projectName: config.name,
+    css,
+    pages,
+    isBuild
+  }
 
   config = Object.assign({}, defaultConfig, wsindex)
 

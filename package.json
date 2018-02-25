@@ -36,20 +36,20 @@
       {
         "serve": "https://localhost",
         "build": "https://example.com",
-        "title": "abc",
-        "desc": "def"
+        "title": "foo",
+        "desc": "This is the first page."
       },
       {
         "serve": "https://localhost",
         "build": "https://example.com",
-        "title": "abc",
-        "desc": "def"
+        "title": "bar",
+        "desc": "This is the second page."
       },
       {
         "serve": "https://localhost",
         "build": "https://example.com",
-        "title": "abc",
-        "desc": "def"
+        "title": "baz",
+        "desc": "This is the third page."
       }
     ]
   }
