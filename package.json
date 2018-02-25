@@ -1,0 +1,56 @@
+{
+  "name": "wsindex",
+  "version": "0.1.0",
+  "description": "Web Site Index tool, a static site generator for list of web sites.",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "kocha test.js",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kt3k/wsindex.git"
+  },
+  "keywords": [
+    "ssg"
+  ],
+  "author": "Yoshiya Hinosawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kt3k/wsindex/issues"
+  },
+  "homepage": "https://github.com/kt3k/wsindex#readme",
+  "dependencies": {
+    "berber": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "layout1": "^1.1.0",
+    "nunjucks": "^3.1.2",
+    "through1": "^1.0.1"
+  },
+  "devDependencies": {
+    "standard": "^11.0.0"
+  },
+  "wsindex": {
+    "pages": [
+      {
+        "serve": "https://localhost",
+        "build": "https://example.com",
+        "title": "abc",
+        "desc": "def"
+      },
+      {
+        "serve": "https://localhost",
+        "build": "https://example.com",
+        "title": "abc",
+        "desc": "def"
+      },
+      {
+        "serve": "https://localhost",
+        "build": "https://example.com",
+        "title": "abc",
+        "desc": "def"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+<div>
+  {% for page in  pages %}
+    <div>
+      <a href="{{ page.build if isBuild else page.serve }}">{{ page.title }}</a> {{ page.desc }}
+    </div>
+  {% endfor %}
+</div>
