@@ -1,6 +1,6 @@
 {
   "name": "wsindex",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A static site generator for a simple link list.",
   "main": "index.js",
   "bin": "./index.js",
