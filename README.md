@@ -1,4 +1,4 @@
-# wsindex v0.1.0
+# wsindex v1.0.0
 
 > Web Site Index tool, a static site generator for list of web sites.
 
