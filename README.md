@@ -1,6 +1,6 @@
 # wsindex v1.1.0
 
-> A static site generator for a simple link list.
+> :vertical_traffic_light: A static site generator for a simple link list.
 
 wsindex is a static site generator which creates the index web page of the list of web pages.
 
