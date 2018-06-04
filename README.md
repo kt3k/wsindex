@@ -1,4 +1,4 @@
-# wsindex v1.1.0
+# wsindex v1.1.1
 
 > :vertical_traffic_light: A static site generator for a simple link list.
 
